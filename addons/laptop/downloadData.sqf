@@ -6,7 +6,7 @@
 =======================================================================================================================
 */
 
-T8_varFileSize = 165072;  								// Filesize ... smaller files will take shorter time to download!
+T8_varFileSize = 55024;								// Filesize ... smaller files will take shorter time to download! Default: 165072
 
 T8_varTLine01 = "Download cancelled!";				// download aborted
 T8_varTLine02 = "Download already in progress by someone else!";			// download already in progress by someone else
