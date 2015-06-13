@@ -9,7 +9,52 @@ waitUntil {!isNull player};
 
 player createDiarySubject ["infos", "Infos and Help"];
 player createDiarySubject ["changelog", "Changelog"];
+player createDiarySubject ["changelog-z", "Novedades Z"];
 player createDiarySubject ["credits", "Credits"];
+
+player createDiaryRecord ["changelog-z",
+[
+"v0.4",
+"
+<br/>[Añadido] Algunas traducciones
+<br/>[Cambiado] Reducir el rango de aparición del objeto en misión GeoCache
+<br/>[Cambiado] Tamaño de la descarga en la misión Hackers
+<br/>[Cambiado] Frecuencia de aparición de la misión Hackers
+<br/>[Corregido] Cajas de misión aparecían vacías
+"
+]];
+
+player createDiaryRecord ["changelog-z",
+[
+"v0.3",
+"
+<br/>[Añadido] Misión Hackers
+<br/>[Añadido] Textura Bandera Española
+"
+]];
+
+player createDiaryRecord ["changelog-z",
+[
+"v0.2",
+"
+<br/>[Añadido] Misión Objetivo de Alto Valor (High Value Target)
+<br/>[Añadido] Barra de estado inferior
+<br/>[Añadido] Misión GeoCache
+<br/>[Añadido] Acción Ocultar Cuerpo (Hide Body)
+"
+]];
+
+player createDiaryRecord ["changelog-z",
+[
+"v0.1",
+"
+<br/>[Añadido] Compra, venta y reparación de vehículos en las tiendas
+<br/>[Añadido] Imagen de inicio personalizada
+<br/>[Añadido] Música de inicio
+<br/>[Cambiado] Precios en las tiendas
+<br/>[Eliminado] Gafas de visión nocturna
+"
+]];
 
 player createDiaryRecord ["changelog",
 [
