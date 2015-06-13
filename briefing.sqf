@@ -14,9 +14,17 @@ player createDiarySubject ["credits", "Credits"];
 
 player createDiaryRecord ["changelog-z",
 [
-"v0.4",
+"v0.5",
 "
 <br/>[Añadido] Algunas traducciones
+<br/>[Cambiado] Cambio completo de la misión Sniper Overwatch
+"
+]];
+
+player createDiaryRecord ["changelog-z",
+[
+"v0.4",
+"
 <br/>[Cambiado] Reducir el rango de aparición del objeto en misión GeoCache
 <br/>[Cambiado] Tamaño de la descarga en la misión Hackers
 <br/>[Cambiado] Frecuencia de aparición de la misión Hackers
