@@ -3,114 +3,145 @@
 	<Package name="General">
 		<Key ID="STR_WL_Gen_TeamWEST">
 			<English>BLUFOR</English>
+			<Spanish>BLUFOR</Spanish>
 		</Key>
 		<Key ID="STR_WL_Gen_TeamWEST_2">
 			<English>BLUFOR</English>
+			<Spanish>BLUFOR</Spanish>
 		</Key>
 		<Key ID="STR_WL_Gen_TeamEAST">
 			<English>OPFOR</English>
+			<Spanish>OPFOR</Spanish>
 		</Key>
 		<Key ID="STR_WL_Gen_TeamEAST_2">
 			<English>OPFOR</English>
+			<Spanish>OPFOR</Spanish>
 		</Key>
 		<Key ID="STR_WL_Gen_TeamGUER">
 			<English>Independent</English>
+			<Spanish>Independiente</Spanish>
 		</Key>
 		<Key ID="STR_WL_Gen_TeamGUER_2">
 			<English>Independent</English>
+			<Spanish>Independiente</Spanish>
 		</Key>
 	</Package>
 	<Package name="TeamLock">
 		<Key ID="STR_WL_Punish_Teamkiller">
 			<English>You have been punished for teamkilling twice during this server session. Your inventory has been wiped, and you are now locked to the Independent side.</English>
+			<Spanish>Has sido castigado por matar a dos compañeros durante la sesión actual. Tu inventario ha sido vaciado y ahora estás bloqueado en el equipo Independiente.</Spanish>
 		</Key>
 		<Key ID="STR_WL_Loading_Teamkiller">
 			<English>You are restricted to the Independent side, due to having done 2 or more teamkills during this server session.</English>
+			<Spanish>Estás restringido al equipo Independiente por haber matado a dos o más compañeros durante la sesión actual.</Spanish>
 		</Key>
 		<Key ID="STR_WL_Loading_Teamswitched">
 			<English>You have played as %1 for too long and cannot switch to the other team. You can still play as Independent. (or if online, ask an admin to unlock you)</English>
+			<Spanish>Has jugado como %1 durante demasiado tiempo y ya no puedes cambiar al otro equipo. Aún puedes jugar como Independiente (o si hay algún admin conectado, pídele que te desbloquee).</Spanish>
 		</Key>
 	</Package>
 	<Package name="WelcomeMessage">
 		<Key ID="STR_WL_WelcomeToWasteland">
 			<English>&lt;t color='#FF8000' size='2.5' &gt;A3Wasteland Stratis v1.1b &lt;/t&gt;</English>
+			<Spanish>&lt;t color='#FF8000' size='2.5' &gt;A3Wasteland Stratis v1.1b &lt;/t&gt;</Spanish>
 		</Key>
 		<Key ID="STR_WL_YouAreInTeam">
 			<English>&lt;t color='#FFFFFF' size='1.5' &gt;* You are in &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt; team.&lt;br/&gt;* Attacking or stealing from other %4 players is &lt;t color="#FF1111"&gt;FORBIDDEN&lt;/t&gt;&lt;br/&gt;* &lt;t color="#FF1111"&gt;NO VOICE IN GLOBAL&lt;/t&gt;&lt;br/&gt;* You can find the Server Rules in the map menu.&lt;br/&gt;* Server restarts are done at the admin's discretion.&lt;br/&gt;* You will be locked to your team after 3 minutes.&lt;/t&gt;</English>
+			<Spanish>&lt;t color='#FFFFFF' size='1.5' &gt;* Estás en el equipo &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt;.&lt;br/&gt;* Atacar o robar a otros miembros de %4 está &lt;t color="#FF1111"&gt;PROHIBIDO&lt;/t&gt;&lt;br/&gt;* &lt;t color="#FF1111"&gt;NO HABLES EN GLOBAL&lt;/t&gt;&lt;br/&gt;* Puedes encontrar las Normas del Servidor en el menú del mapa.&lt;br/&gt;* Los reinicios del servidor se realizan a discrección de los admins.&lt;br/&gt;* Serás bloqueado en tu equipo transcurridos 3 minutos.&lt;/t&gt;</Spanish>
 		</Key>
 		<Key ID="STR_WL_YouAreInFFA">
 			<English>&lt;t color='#FFFFFF' size='1.5' &gt;* You are in &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt; team.&lt;br/&gt;* You are &lt;t color="#00aa00"&gt;FREE TO ATTACK ANYONE&lt;/t&gt;&lt;br/&gt;* &lt;t color="#FF1111"&gt;NO VOICE IN GLOBAL&lt;/t&gt;&lt;br/&gt;* You can find the Server Rules in the map menu.&lt;br/&gt;* Server restarts are done at the admin's discretion.&lt;/t&gt;</English>
+			<Spanish>&lt;t color='#FFFFFF' size='1.5' &gt;* Estás en el equipo &lt;img size="1.5" image="%1"/&gt; &lt;t color="%2"&gt;%3&lt;/t&gt;.&lt;br/&gt;* Eres &lt;t color="#00aa00"&gt;LIBRE DE ATACAR A QUIÉN QUIERAS&lt;/t&gt;&lt;br/&gt;* &lt;t color="#FF1111"&gt;NO HABLES EN GLOBAL&lt;/t&gt;&lt;br/&gt;* Puedes encontrar las Normas del Servidor en el menú del mapa.&lt;br/&gt;* Los reinicios del servidor se realizan a discrección de los admins.&lt;/t&gt;</Spanish>
 		</Key>
 		<Key ID="STR_WL_MapMoreInfo">
 			<English>&lt;t color='#FFFFFF' size='1.5' &gt;Report bugs and suggestions at http://forums.a3wasteland.com/ &lt;br/&gt;Server restarts are done at the admin's discretion.&lt;br/&gt;Press the Windows or Home key to toggle player names&lt;br/&gt;Press the End key to toggle earplugs&lt;br/&gt;For more info please see the map&lt;br/&gt;</English>
-			<!-- &lt;br/&gt;&lt;/t&gt;&lt;t size='1.3'&gt;[Update X]&lt;/t&gt;&lt;br/&gt; -->
+			<Spanish>&lt;t color='#FFFFFF' size='1.5' &gt;Reporta errores y sugerencias en http://forums.a3wasteland.com/ &lt;br/&gt;Los reinicios del servidor se realizan a discrección de los admins.&lt;br/&gt;Pulsa las teclas Windows o Inicio para mostrar u ocultar los nombres de los jugadores&lt;br/&gt;Pulsa la tecla Fin para ponerte o quitarte los tapones&lt;br/&gt;Para más información, consulta el mapa&lt;br/&gt;</Spanish>
 		</Key>
 	</Package>
 	<Package name="TeamKillWarningMessage">
 		<Key ID="STR_TK_MESSAGE">
 			<English>&lt;t size='2' color='#ff0000'&gt;Team killing is against the rules!&lt;/t&gt;&lt;br/&gt;If this was a mistake then you must explain yourself and say sorry, otherwise they will mark you as teamkiller and you will get kicked.</English>
+			<Spanish>&lt;t size='2' color='#ff0000'&gt;Matar a miembros de tu equipo va contra las normas!&lt;/t&gt;&lt;br/&gt;Si fue un error deberás explicarte y pedir perdón, si no te arriesgas a que te marquen como matacompañeros y serás expulsado.</Spanish>
 		</Key>
 	</Package>
 	<Package name="Diary">
 		<Key ID="STR_WL_Diary_RulesContent">
 			<English>&lt;br/&gt;    1. Keep bad language to a minimum. If you have a problem with another player, take it to direct.&lt;br/&gt;    2. NO VOIP IN GLOBAL. Use the channels or Teamspeak!.&lt;br/&gt;    3. Team killing when you are in BLUFOR or OPFOR is forbidden and punishable. Play as Independent if you want to be free for all.&lt;br/&gt;    4. Revealing information about your (ex)team to other teams is lame and not appreciated&lt;br/&gt;    5. Do not exploit R3F or any other add-ons or you will be banned.&lt;br/&gt;    6. Using or spamming with loud\long custom sound commands will cause punishment up to permanent ban</English>
+			<Spanish>&lt;br/&gt;    1. Habla bien. Si tienes algún problema con otro jugador, trátalo con él Directamente.&lt;br/&gt;    2. NO HABLES EN GLOBAL. ¡Usa los canales, TeamSpeak o RaidCall!.&lt;br/&gt;    3. Matar a miembros de tu equipo cuando eres BLUFOR u OPFOR está prohibido y es objeto de castigo. Juega como Independiente si quieres tener libertad para matar a quién quieras.&lt;br/&gt;    4. Revelar información sobre tu (ex)equipo a otros equipos es de pringados y nos parece patético.&lt;br/&gt;    5. No intentes aprovecharte de vulnerabilidades del juego o serás baneado.&lt;br/&gt;    6. El uso o abuso de comandos de sonido molestos será castigado con penas que pueden llevar a la expulsión definitiva y permanente del servidor.</Spanish>
 		</Key>
 	</Package>
 	<Package name="ShopDescriptions">
 		<Key ID="STR_WL_ShopDescriptions_Water">
 			<English>Greece is a hot place! Drink plenty!</English>
+			<Spanish>¡Grecia es un lugar caluroso! ¡Bebe en abundancia!</Spanish>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_Camo">
 			<English>An improvised roof, 4 sticks and a blanket!</English>
+			<Spanish>¡Un tejado improvisado, 4 palos y una sábana!</Spanish>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_CanFood">
 			<English>The Greek wastelands may get you hungry!</English>
+			<Spanish>¡Los yermos griegos pueden darte hambre!</Spanish>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_RepairKit">
 			<English>With this kit, you won't need an engineer!</English>
+			<Spanish>¡Con este kit no necesitarás a un ingeniero!</Spanish>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_MedKit">
 			<English>With this kit, you won't need a medic!</English>
+			<Spanish>¡Con este kit no necesitarás a un médico!</Spanish>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_fuelFull">
 			<English>25 litres of pure unleaded fuel!</English>
+			<Spanish>¡25 litos de puro combustible sin plomo!</Spanish>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_fuelEmpty">
 			<English>Empty fuel can. You can refill it!</English>
+			<Spanish>Garrafa de combustible vacía. ¡Puedes rellenarla!</Spanish>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_spawnBeacon">
 			<English>Choose your spawn location. Disclaimer: This product does not guarantee safe delivery of goods.</English>
+			<Spanish>Elije dónde quieres que aparezca. Aviso: Este producto no garantiza su entrega en perfecto estado.</Spanish>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_SyphonHose">
 			<English>Go forth and steal fuel from vehicles!</English>
+			<Spanish>¡No te cortes y roba combustible de cualquier vehículo!</Spanish>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_Energy_Drink">
 			<English>Allows you to sprint continuously for 5 minutes.</English>
+			<Spanish>Te permite esprintar sin descanso durante 5 minutos.</Spanish>
 		</Key>
 		<Key ID="STR_WL_ShopDescriptions_Warchest">
 			<English>A safe to store your team's money.</English>
+			<Spanish>Una caja fuerta para el dinero de tu equipo.</Spanish>
 		</Key>
 	</Package>
 	<Package name="Dialogs">
 		<Key ID="STR_WL_dialog_TeamkillText">
 			<English>You have been teamkilled by %2 player %1&lt;br/&gt;&lt;br/&gt;If this was an accident, forgive him, otherwise they should explain their actions.&lt;br/&gt;&lt;br/&gt;If the player does not apologize, punish him.</English>
+			<Spanish>Has sido asesinado por el jugador %1 del equipo %2&lt;br/&gt;&lt;br/&gt;Si fue un accidente, perdónalo, si no él debería explicar lo ocurrido.&lt;br/&gt;&lt;br/&gt;Si el jugador no pide perdón, castígalo.</Spanish>
 		</Key>
 	</Package>
 	<Package name="Errors">
 		<Key ID="STR_WL_Errors_InProgress">
 			<English>You are already performing another action!</English>
+			<Spanish>¡Ya estás realizando otra acción!</Spanish>
 		</Key>
 		<Key ID="STR_WL_Errors_InVehicle">
 			<English>You are currently busy!</English>
+			<Spanish>¡Ahora mismo estás ocupado!</Spanish>
 		</Key>
 		<Key ID="STR_WL_Errors_BeaconActive">
 			<English>You already have an active spawn beacon!</English>
+			<Spanish>¡Ya tienes un &lt;i&gt;spawn beacon&lt;/i&gt; activo!</Spanish>
 		</Key>
 		<Key ID="STR_WL_Errors_BeaconInVehicle">
 			<English>You cannot enter a vehicle while placing a spawn beacon!</English>
+			<Spanish>¡No puedes entrar a un vehículo mientras estás colocando un &lt;i&gt;spawn beacon&lt;/i&gt;!</Spanish>
 		</Key>
 		<Key ID="STR_WL_Errors_BeaconTooMany">
 			<English>You cannot take more spawn beacons!</English>
+			<Spanish>¡No puedes llevar más &lt;i&gt;spawn beacons&lt;/i&gt;!</Spanish>
 		</Key>
 	</Package>
 </Project>
