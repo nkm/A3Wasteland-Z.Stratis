@@ -11,7 +11,7 @@ if (!isServer) exitWith {};
 
 diag_log "WASTELAND SERVER - Initializing Server Compile";
 
-//Factory Compiles
+// Factory Compiles
 _path = "server\missions\factoryMethods";
 attemptCompileMissions = [_path, "attemptCompileMissions.sqf"] call mf_compile;
 checkMissionVehicleLock = [_path, "checkMissionVehicleLock.sqf"] call mf_compile;
@@ -19,16 +19,19 @@ cleanLocationObjects = [_path, "cleanLocationObjects.sqf"] call mf_compile;
 createCustomGroup = [_path, "createUnits\customGroup.sqf"] call mf_compile;
 createCustomGroup2 = [_path, "createUnits\customGroup2.sqf"] call mf_compile;
 createCustomGroup3 = [_path, "createUnits\customGroup3.sqf"] call mf_compile;
-createGroup1= [_path, "createUnits\Group1.sqf"] call mf_compile;
-createGroup2= [_path, "createUnits\Group2.sqf"] call mf_compile;
-createGroup3= [_path, "createUnits\Group3.sqf"] call mf_compile;
-createGroup4= [_path, "createUnits\Group4.sqf"] call mf_compile;
-createGroup5= [_path, "createUnits\Group5.sqf"] call mf_compile;
-createGroup6= [_path, "createUnits\Group6.sqf"] call mf_compile;
-createGroup7= [_path, "createUnits\Group7.sqf"] call mf_compile;
-createGroup8= [_path, "createUnits\Group8.sqf"] call mf_compile;
-createGroup9= [_path, "createUnits\Group9.sqf"] call mf_compile;
-createGroup10= [_path, "createUnits\Group10.sqf"] call mf_compile;
+createSniperGroup1 = [_path, "createUnits\sniperGroup1.sqf"] call mf_compile;
+createSniperGroup2 = [_path, "createUnits\sniperGroup2.sqf"] call mf_compile;
+createSniperGroup3 = [_path, "createUnits\sniperGroup3.sqf"] call mf_compile;
+createGroup1 = [_path, "createUnits\Group1.sqf"] call mf_compile;
+createGroup2 = [_path, "createUnits\Group2.sqf"] call mf_compile;
+createGroup3 = [_path, "createUnits\Group3.sqf"] call mf_compile;
+createGroup4 = [_path, "createUnits\Group4.sqf"] call mf_compile;
+createGroup5 = [_path, "createUnits\Group5.sqf"] call mf_compile;
+createGroup6 = [_path, "createUnits\Group6.sqf"] call mf_compile;
+createGroup7 = [_path, "createUnits\Group7.sqf"] call mf_compile;
+createGroup8 = [_path, "createUnits\Group8.sqf"] call mf_compile;
+createGroup9 = [_path, "createUnits\Group9.sqf"] call mf_compile;
+createGroup10 = [_path, "createUnits\Group10.sqf"] call mf_compile;
 createRandomPilot = [_path, "createUnits\createRandomPilot.sqf"] call mf_compile;
 createLargeDivers = [_path, "createUnits\largeDivers.sqf"] call mf_compile;
 createMissionLocation = [_path, "createMissionLocation.sqf"] call mf_compile;
@@ -48,7 +51,7 @@ setLocationObjects = [_path, "setLocationObjects.sqf"] call mf_compile;
 setLocationState = [_path, "setLocationState.sqf"] call mf_compile;
 setMissionState = [_path, "setMissionState.sqf"] call mf_compile;
 
-//Function Compiles
+// Function Compiles
 _path = "server\functions";
 A3W_fnc_checkHackedVehicles = [_path, "checkHackedVehicles.sqf"] call mf_compile;
 addMilCap = [_path, "addMilCap.sqf"] call mf_compile;
@@ -78,6 +81,7 @@ processTransaction = [_path, "processTransaction.sqf"] call mf_compile;
 punishTeamKiller = [_path, "punishTeamKiller.sqf"] call mf_compile;
 refillPrimaryAmmo = [_path, "refillPrimaryAmmo.sqf"] call mf_compile;
 setMissionSkill = [_path, "setMissionSkill.sqf"] call mf_compile;
+setSniperSkill = [_path, "setSniperSkill.sqf"] call mf_compile;
 spawnStoreObject = [_path, "spawnStoreObject.sqf"] call mf_compile;
 teamKillUnlock = [_path, "teamKillUnlock.sqf"] call mf_compile;
 teamSwitchLock = [_path, "teamSwitchLock.sqf"] call mf_compile;
@@ -88,10 +92,10 @@ vehicleSetup = [_path, "vehicleSetup.sqf"] call mf_compile;
 waitUntilBagTaken = [_path, "waitUntilBagTaken.sqf"] call mf_compile;
 weaponDisassembledServer = [_path, "weaponDisassembledServer.sqf"] call mf_compile;
 
-//Player Management
+// Player Management
 server_playerDied = [_path, "serverPlayerDied.sqf"] call mf_compile;
 
-//Spawning Compiles
+// Spawning Compiles
 _path = "server\spawning";
 addVehicleRespawn = [_path, "addVehicleRespawn.sqf"] call mf_compile;
 boatCreation = [_path, "boatCreation.sqf"] call mf_compile;
