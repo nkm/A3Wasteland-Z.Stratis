@@ -42,13 +42,19 @@ _failedExec = nil;
 _successExec =
 {
 	// Mission completed
-	_randomBox = ["mission_TOP_Gear1","mission_TOP_Sniper","mission_USSpecial","mission_USLaunchers","mission_Main_A3snipers"] call BIS_fnc_selectRandom;
-	_box1 = createVehicle ["Box_NATO_Wps_F", _lastPos, [], 2, "None"];
+
+	_boxes1 = ["Box_East_WpsSpecial_F","Box_IND_WpsSpecial_F"];
+	_currBox1 = _boxes1 call BIS_fnc_selectRandom;
+
+	_box1 = createVehicle [_currBox1, _lastPos, [], 2, "None"];
 	_box1 setDir random 360;
+	_box1 allowDamage false;
+	_box1 setVariable ["R3F_LOG_disabled", false, true];
+
+	_randomBox = ["mission_TOP_Gear1","mission_TOP_Sniper","mission_USSpecial","mission_USLaunchers","mission_Main_A3snipers"] call BIS_fnc_selectRandom;
 	[_box1, _randomBox] call fn_refillbox;
 
 	_successHintMessage = format ["The snipers are dead! Well Done!"];
-	{ _x setVariable ["R3F_LOG_disabled", false, true] } forEach [_box1];
 };
 
-_this call mainMissionProcessor;
+_this call sideMissionProcessor;
