@@ -16,6 +16,7 @@ player createDiaryRecord ["changelog-z",
 [
 "v0.6",
 "
+<br/>[Añadido] Marcadores del mapa aparecen en vista 3D
 <br/>[Añadido] Detector de Spawn Beacons
 <br/>[Cambiado] Ajustes climatológicos varios
 "
