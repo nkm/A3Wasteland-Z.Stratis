@@ -14,6 +14,14 @@ player createDiarySubject ["credits", "Credits"];
 
 player createDiaryRecord ["changelog-z",
 [
+"v0.6",
+"
+<br/>[Cambiado] Ajustes climatológicos varios
+"
+]];
+
+player createDiaryRecord ["changelog-z",
+[
 "v0.5",
 "
 <br/>[Añadido] Algunas traducciones

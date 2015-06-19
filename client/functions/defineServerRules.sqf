@@ -11,6 +11,6 @@ if (!hasInterface) exitWith {};
 if !(player diarySubjectExists "rules") then
 {
 	waitUntil {player diarySubjectExists "credits"};
-	player createDiarySubject ["rules", "Normas del Servidor"];
+	player createDiarySubject ["rules", "Nuestras Normas"];
 	player createDiaryRecord ["rules", ["Normas", _this select 0]];
 };
