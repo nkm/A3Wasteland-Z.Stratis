@@ -1,36 +1,35 @@
-respawn="BASE";
-respawnDelay=15;
-disabledAI=1;
-disableChannels[] = {2}; // {0} to disable global, {2} for command channel
-joinUnassigned = 0;
-enableItemsDropping = 0;
+respawn                 = "BASE";
+respawnDelay            = 15;
+disabledAI              = 1;
+disableChannels[]       = {2}; // {0} to disable global, {2} for command channel
+joinUnassigned          = 0;
+enableItemsDropping     = 0;
 forceRotorLibSimulation = 0; // if you set this to 1, you deny freedom of choice to the players, which is the very principle this mission is built upon
-weaponPool = 0;
-corpseManagerMode = 1;
-corpseRemovalMinTime = 30*60;
-corpseRemovalMaxTime = 30*60;
-wreckManagerMode = 1;
-wreckRemovalMinTime = 5*60;
-wreckRemovalMaxTime = 10*60;
-enableDebugConsole = 1;
-respawnDialog = 0; // do not enable this, otherwise the default scoreboard will overlap with the new one
-onPauseScript = "client\clientEvents\onPause.sqf";
+weaponPool              = 0;
+corpseManagerMode       = 1;
+corpseRemovalMinTime    = 30*60;
+corpseRemovalMaxTime    = 30*60;
+wreckManagerMode        = 1;
+wreckRemovalMinTime     = 5*60;
+wreckRemovalMaxTime     = 10*60;
+enableDebugConsole      = 1;
+respawnDialog           = 0; // do not enable this, otherwise the default scoreboard will overlap with the new one
+onPauseScript           = "client\clientEvents\onPause.sqf";
 class Header
 {
-	gameType=Sandbox;
-	minPlayers=1;
-	maxPlayers=145; // 144 players, 1 headless client
+	gameType   = Sandbox;
+	minPlayers = 1;
+	maxPlayers = 145; // 144 players, 1 headless client
 };
-author="AgentRev - A3Wasteland.com"; // it would be if you could keep "A3Wasteland.com" in the name, like "YourName and A3Wasteland.com" :)
-onLoadName = "A3Wasteland Stratis"; // it would be great if you could keep "A3" in the name, like "ABC A3Wasteland" instead of "ABC Wasteland" :)
-onLoadMission = "Wasteland is a harsh survival sandbox where two teams and independent players fight for survival.";
-overviewText = "Wasteland is a harsh survival sandbox where two teams and independent players fight for survival.";
-overviewTextLocked = "Wasteland is a harsh survival sandbox where two teams and independent players fight for survival.";
-overviewPicture = "mapConfig\Loading.jpg";
-loadScreen = "mapConfig\Loading.jpg";
+loadScreen              = "mapConfig\Loading.jpg";
+overviewPicture         = "mapConfig\Loading.jpg";
+onLoadName              = $STR_WL_Mis_Name; // it would be great if you could keep "A3" in the name, like "ABC A3Wasteland" instead of "ABC Wasteland" :)
+author                  = $STR_WL_Mis_Author; // it would be if you could keep "A3Wasteland.com" in the name, like "YourName and A3Wasteland.com" :)
+onLoadMission           = $STR_WL_Mis_Description;
+overviewText            = $STR_WL_Mis_Description;
+overviewTextLocked      = $STR_WL_Mis_Description;
 
-//Dialog includes
-
+// Dialog includes
 #include "client\gui_base.hpp"
 #include "addons\R3F_ARTY_AND_LOG\desc_include.h"
 #include "client\systems\ui_toolkit.hpp"
@@ -80,16 +79,16 @@ class CfgNotifications
 	#include "client\CfgNotifications.hpp"
 };
 
-class params
+class Params
 {
-	class marker3D
+	class Marker3D
 	{
-		title = "3D markers";
+		title    = "3D markers";
 		values[] = {0,1};
-		texts[] = {$STR_DISABLED,$STR_ENABLED};
-		default = 1;
+		texts[]  = {$STR_DISABLED,$STR_ENABLED};
+		default  = 1;
 		isGlobal = 1;
-		file = "addons\3D_Markers\3Dmarkers.sqf";
+		file     = "addons\3D_Markers\3Dmarkers.sqf";
 	};
 };
 
@@ -99,7 +98,6 @@ class CfgMusic
 
 	class Intro
 	{
-		name = "";
 		sound[] = {"\music\intro.ogg", db-10, 1.0};
 	};
 }

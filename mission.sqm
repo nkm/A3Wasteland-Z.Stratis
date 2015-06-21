@@ -125,21 +125,21 @@ class Mission
 	randomSeed=14957468;
 	class Intel
 	{
-		briefingName="A3Wasteland Stratis v1.1b"; // it would be great if you could keep "A3" in the name, like "ABC A3Wasteland" instead of "ABC Wasteland" :)
-		overviewText="Wasteland survival sandbox by Team Wasteland - visit A3Wasteland.com for more details";
-		resistanceWest=0;
-		timeOfChanges=3e+038;
-		startWeather=0;
-		startWind=0;
-		forecastWeather=0;
-		forecastWind=0;
-		forecastWaves=0;
-		year=2035;
-		month=6;
-		hour=6;
-		minute=0;
-		startFogDecay=0.001;
-		forecastFogDecay=0.001;
+		briefingName     = "@STR_WL_Mis_Name"; // it would be great if you could keep "A3" in the name, like "ABC A3Wasteland" instead of "ABC Wasteland" :)
+		overviewText     = "@STR_WL_Mis_Overview";
+		resistanceWest   = 0;
+		timeOfChanges    = 3e+038;
+		startWeather     = 0;
+		startWind        = 0;
+		forecastWeather  = 0;
+		forecastWind     = 0;
+		forecastWaves    = 0;
+		year             = 2035;
+		month            = 6;
+		hour             = 6;
+		minute           = 0;
+		startFogDecay    = 0.001;
+		forecastFogDecay = 0.001;
 	};
 	class Groups
 	{
