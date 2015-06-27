@@ -6,16 +6,17 @@
 =======================================================================================================================
 */
 
-T8_varFileSize = 55024;								// Filesize ... smaller files will take shorter time to download! Default: 165072
+T8_varFileSize   = 55024; // Filesize. Smaller files will take shorter time to download! Default: 165072
 
-T8_varTLine01 = "Download cancelled!";				// download aborted
-T8_varTLine02 = "Download already in progress by someone else!";			// download already in progress by someone else
-T8_varTLine03 = "Download started!";					// download started
-T8_varTLine04 = "Download finished! $25,000 added to your inventory!";				// download finished
-T8_varTLine05 = "##  Hack Player Bank Accounts  ##";				// line for the addaction
+T8_varMinMoney   = 25000;
 
-T8_varDiagAbort = false;
-T8_varDownSucce = false;
+T8_varTLine01    = "Download cancelled!";                                                 // download aborted
+T8_varTLine02    = "Download already in progress by someone else!";                       // download already in progress by someone else
+T8_varTLine03    = "Download started!";                                                   // download started
+T8_varTLine04    = "##  Hack Player Bank Accounts  ##";                                   // line for the addaction
+
+T8_varDiagAbort  = false;
+T8_varDownSucce  = false;
 
 downloadActionId = nil;
 
@@ -30,7 +31,7 @@ if (isDedicated) exitWith {};
 	_cDT = _laptop getVariable [ "Done", false ];
 	if ( _cDT ) exitWith {};
 	if(isNil "downloadActionId") then {
-		downloadActionId = _laptop addAction [ T8_varTLine05, { call T8_fnc_ActionLaptop; }, [], 10, true, false ];
+		downloadActionId = _laptop addAction [ T8_varTLine04, { call T8_fnc_ActionLaptop; }, [], 10, true, false ];
 	};
 };
 
@@ -161,14 +162,14 @@ T8_fnc_ActionLaptop =
 					};
 				};
 
-				if (_totalMoney > 25000) then {
+				if (_totalMoney > T8_varMinMoney) then {
 					player setVariable ["cmoney", (player getVariable ["cmoney", 0]) + _totalMoney, true];
-					systemChat format["You have hacked players bank accounts to the value of $%1",_totalMoney];
+					systemChat format["You have hacked players bank accounts to the value of $%1", _totalMoney];
 				}
 				else
 				{
-					player setVariable ["cmoney", (player getVariable ["cmoney", 0]) + 25000, true];
-					systemChat format["You have hacked players bank accounts to the value of $25,000"];
+					player setVariable ["cmoney", (player getVariable ["cmoney", 0]) + T8_varMinMoney, true];
+					systemChat format["You have hacked players bank accounts to the value of $%1", T8_varMinMoney];
 				};
 			};
 
