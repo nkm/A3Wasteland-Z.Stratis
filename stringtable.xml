@@ -139,6 +139,38 @@
 			<English>A safe to store your team's money.</English>
 			<Spanish>Una caja fuerta para el dinero de tu equipo.</Spanish>
 		</Key>
+		<Key ID="STR_WL_Skin_Desert">
+			<English>Desert</English>
+			<Spanish>Pintura Oscura</Spanish>
+		</Key>
+		<Key ID="STR_WL_Skin_Dgtl">
+			<English>Digi</English>
+			<Spanish>Digital</Spanish>
+		</Key>
+		<Key ID="STR_WL_Skin_Hex">
+			<English>Hex</English>
+			<Spanish>Hex</Spanish>
+		</Key>
+		<Key ID="STR_WL_Skin_MTP">
+			<English>MTP</English>
+			<Spanish>MTP</Spanish>
+		</Key>
+		<Key ID="STR_WL_Skin_Oli">
+			<English>Olive</English>
+			<Spanish>Oliva</Spanish>
+		</Key>
+		<Key ID="STR_WL_Skin_Tan">
+			<English>Tan</English>
+			<Spanish>Oscura</Spanish>
+		</Key>
+		<Key ID="STR_WL_Skin_Snd">
+			<English>Sand</English>
+			<Spanish>Arena</Spanish>
+		</Key>
+		<Key ID="STR_WL_Skin_Brn">
+			<English>Brown</English>
+			<Spanish>Marrón</Spanish>
+		</Key>
 	</Package>
 	<Package name="Dialogs">
 		<Key ID="STR_WL_dialog_TeamkillText">

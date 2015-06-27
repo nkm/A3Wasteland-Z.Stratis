@@ -16,53 +16,53 @@ currentOwnerName = "";
 pistolArray = compileFinal str
 [
 	// Handguns
-	["P07 Pistol", "hgun_P07_F", 50],
-	["Rook-40 Pistol", "hgun_Rook40_F", 50],
-	["ACP-C2 Pistol", "hgun_ACPC2_F", 75],
-	["Zubr Revolver", "hgun_Pistol_heavy_02_F", 75],
-	["4-Five Pistol", "hgun_Pistol_heavy_01_F", 100]
+	[localize "str_a3_cfgweapons_hgun_p070", "hgun_P07_F", 50],
+	[localize "str_cfgweapons_hgun_rook40_f0", "hgun_Rook40_F", 50],
+	[localize "str_a3_cfgweapons_hgun_acpc2_f0", "hgun_ACPC2_F", 75],
+	[localize "str_a3_cfgweapons_hgun_pistol_heavy_02_f0", "hgun_Pistol_heavy_02_F", 75],
+	[localize "str_a3_cfgweapons_hgun_pistol_heavy_01_f0", "hgun_Pistol_heavy_01_F", 100]
 ];
 
 smgArray = compileFinal str
 [
-	["PDW2000 SMG", "hgun_PDW2000_F", 100],
-	["Sting SMG", "SMG_02_F", 125],
-	["Vermin SMG", "SMG_01_F", 125]
+	[localize "str_a3_cfgweapons_hgun_pdw20000", "hgun_PDW2000_F", 100],
+	[localize "str_a3_cfgweapons_smg_020", "SMG_02_F", 125],
+	[localize "str_a3_cfgweapons_smg_010", "SMG_01_F", 125]
 ];
 
 rifleArray = compileFinal str
 [
 	// Underwater Gun
-	["SDAR Underwater Rifle", "arifle_SDAR_F", 100],
+	[localize "str_a3_cfgweapons_arifle_sdar0", "arifle_SDAR_F", 100],
 
 	// Assault Rifles
-	["Mk20 Carbine", "arifle_Mk20C_plain_F", 150],
-	["Mk20 Carbine (Camo)", "arifle_Mk20C_F", 175],
-	["Mk20 Rifle", "arifle_Mk20_plain_F", 200],
-	["Mk20 Rifle (Camo)", "arifle_Mk20_F", 200],
-	["Mk20 EGLM Rifle", "arifle_Mk20_GL_plain_F", 250],
-	["Mk20 EGLM Rifle (Camo)", "arifle_Mk20_GL_F", 250],
+	[localize "str_a3_cfgweapons_arifle_mk20c0", "arifle_Mk20C_plain_F", 150],
+	[localize "str_a3_cfgweapons_arifle_mk20c_camo", "arifle_Mk20C_F", 175],
+	[localize "str_a3_cfgweapons_arifle_mk200", "arifle_Mk20_plain_F", 200],
+	[localize "str_a3_cfgweapons_arifle_mk20_camo", "arifle_Mk20_F", 200],
+	[localize "str_a3_cfgweapons_arifle_mk20_gl0", "arifle_Mk20_GL_plain_F", 250],
+	[localize "STR_A3_cfgweapons_afrile_mk20_gl_camo", "arifle_Mk20_GL_F", 250],
 
-	["TRG-20 Carbine", "arifle_TRG20_F", 150],
-	["TRG-21 Rifle ", "arifle_TRG21_F", 200],
-	["TRG-21 EGLM Rifle", "arifle_TRG21_GL_F", 250],
+	[localize "str_a3_cfgweapons_arifle_trg200", "arifle_TRG20_F", 150],
+	[localize "str_a3_cfgweapons_arifle_trg210", "arifle_TRG21_F", 200],
+	[localize "str_a3_cfgweapons_arifle_trg21_gl0", "arifle_TRG21_GL_F", 250],
 
-	["Katiba Carbine", "arifle_Katiba_C_F", 150],
-	["Katiba Rifle", "arifle_Katiba_F", 200],
-	["Katiba GL Rifle", "arifle_Katiba_GL_F", 250],
+	[localize "str_a3_cfgweapons_arifle_katiba_c_f0", "arifle_Katiba_C_F", 150],
+	[localize "str_a3_cfgweapons_arifle_katiba_f0", "arifle_Katiba_F", 200],
+	[localize "str_a3_cfgweapons_arifle_katiba_gl_f0", "arifle_Katiba_GL_F", 250],
 
-	["MX Carbine", "arifle_MXC_F", 150],
-	["MX Carbine (Black)", "arifle_MXC_Black_F", 175],
-	["MX Rifle", "arifle_MX_F", 200],
-	["MX Rifle (Black)", "arifle_MX_Black_F", 225],
-	["MX 3GL Rifle", "arifle_MX_GL_F", 250],
-	["MX 3GL Rifle (Black)", "arifle_MX_GL_Black_F", 275],
+	[localize "str_a3_cfgweapons_arifle_xmc0", "arifle_MXC_F", 150],
+	[localize "str_a3_cfgweapons_arifle_mxc_black_f0", "arifle_MXC_Black_F", 175],
+	[localize "str_a3_cfgweapons_arifle_xmx0", "arifle_MX_F", 200],
+	[localize "str_a3_cfgweapons_arifle_mx_black_f0", "arifle_MX_Black_F", 225],
+	[localize "str_a3_cfgweapons_arifle_xmx_gl0", "arifle_MX_GL_F", 250],
+	[localize "str_a3_cfgweapons_arifle_mx_gl_black_f0", "arifle_MX_GL_Black_F", 275],
 
 	// Markman Rifles
-	["MXM Rifle", "arifle_MXM_F", 300],
-	["MXM Rifle (Black)", "arifle_MXM_Black_F", 325],
-	["DMR Rifle", "srifle_DMR_01_F", 400],
-	["Mk18 ABR Rifle", "srifle_EBR_F", 450],
+	[localize "str_a3_cfgweapons_arifle_xmm0", "arifle_MXM_F", 300],
+	[localize "str_a3_cfgweapons_arifle_mxm_black_f0", "arifle_MXM_Black_F", 325],
+	[localize "str_a3_cfgweapons_srifle_dmr_01_f0", "srifle_DMR_01_F", 400],
+	[localize "str_a3_cfgweapons_srifle_abr0", "srifle_EBR_F", 450],
 
 	// DLC
 	["Mk14 Rifle (Camo) [DLC]", "srifle_DMR_06_camo_F", 450],
@@ -80,10 +80,10 @@ rifleArray = compileFinal str
 	["Cyrus Rifle (Tan) [DLC]", "srifle_DMR_05_tan_f", 800],
 
 	// Sniper Rifles
-	["M320 LRR Sniper", "srifle_LRR_SOS_F", 1000],
-	["M320 LRR Sniper (Camo)", "srifle_LRR_camo_SOS_F", 1150],
-	["GM6 Lynx Sniper", "srifle_GM6_SOS_F", 1100],
-	["GM6 Lynx Sniper (camo)", "srifle_GM6_camo_SOS_F", 1250],
+	[localize "str_a3_cfgweapons_srifle_lrr0", "srifle_LRR_SOS_F", 1000],
+	[localize "str_a3_cfgweapons_srifle_lrr_camo_f0", "srifle_LRR_camo_SOS_F", 1150],
+	[localize "str_a3_cfgweapons_srifle_gm60", "srifle_GM6_SOS_F", 1100],
+	[localize "str_a3_cfgweapons_srifle_gm6_camo_f0", "srifle_GM6_camo_SOS_F", 1250],
 
 	["ASP-1 Kir Rifle [DLC]", "srifle_DMR_04_F", 2000],
 	["ASP-1 Kir Rifle (Tan) [DLC]", "srifle_DMR_04_tan_F", 2250]
@@ -91,10 +91,10 @@ rifleArray = compileFinal str
 
 lmgArray = compileFinal str
 [
-	["MX SW LMG", "arifle_MX_SW_F", 300],
-	["MX SW LMG (Black)", "arifle_MX_SW_Black_F", 325],
-	["Mk200 LMG", "LMG_Mk200_F", 375],
-	["Zafir LMG", "LMG_Zafir_F", 450],
+	[localize "str_a3_cfgweapons_arifle_xm_lsw0", "arifle_MX_SW_F", 300],
+	[localize "str_a3_cfgweapons_arifle_mx_sw_black_f0", "arifle_MX_SW_Black_F", 325],
+	[localize "str_a3_cfgweapons_lmg_mk2000", "LMG_Mk200_F", 375],
+	[localize "str_a3_cfgweapons_lmg_zafir_f0", "LMG_Zafir_F", 450],
 	["Navid MMG (Tan) [DLC]", "MMG_01_tan_F", 750],
 	["Navid MMG (Hex) [DLC]", "MMG_01_hex_F", 750],
 	["SPMG MMG (Sand) [DLC]", "MMG_02_sand_F", 750],
@@ -104,181 +104,181 @@ lmgArray = compileFinal str
 
 launcherArray = compileFinal str
 [
-	["RPG-42 Alamut", "launch_RPG32_F", 400],
-	["PCML", "launch_NLAW_F", 600],
-	["Titan MPRL Compact (Tan)", "launch_Titan_short_F", 500],
-	["Titan MPRL Compact (Brown)", "launch_O_Titan_short_F", 500],
-	["Titan MPRL Compact (Olive)", "launch_I_Titan_short_F", 500],
-	["Titan MPRL AA (Desert)", "launch_Titan_F", 600],
-	["Titan MPRL AA (Hex)", "launch_O_Titan_F", 600],
-	["Titan MPRL AA (Digi)", "launch_I_Titan_F", 600]
+	[localize "str_a3_cfgweapons_launch_law0", "launch_RPG32_F", 400],
+	[localize "str_a3_cfgweapons_launch_nlaw0", "launch_NLAW_F", 600],
+	[localize "str_cfgweapons_launch_mprl_short_f0" + " (" + localize "STR_WL_Skin_Tan" + ")", "launch_Titan_short_F", 500],
+	[localize "str_cfgweapons_launch_mprl_short_f0" + " (" + localize "STR_WL_Skin_Brn" + ")", "launch_O_Titan_short_F", 500],
+	[localize "str_cfgweapons_launch_mprl_short_f0" + " (" + localize "STR_WL_Skin_Oli" + ")", "launch_I_Titan_short_F", 500],
+	[localize "str_a3_cfgweapons_launch_mprl0" + " (" + localize "STR_WL_Skin_Desert" + ")", "launch_Titan_F", 600],
+	[localize "str_a3_cfgweapons_launch_mprl0" + " (" + localize "STR_WL_Skin_Hex" + ")", "launch_O_Titan_F", 600],
+	[localize "str_a3_cfgweapons_launch_mprl0" + " (" + localize "STR_WL_Skin_Dgtl" + ")", "launch_I_Titan_F", 600]
 ];
 
 allGunStoreFirearms = compileFinal str (call pistolArray + call smgArray + call rifleArray + call lmgArray + call launcherArray);
 
 staticGunsArray = compileFinal str
 [
-	// ["Vehicle Ammo Crate", "Box_NATO_AmmoVeh_F", 2500],
-	["Static Titan AT 4Rnd (NATO)", "B_static_AT_F", 2500], // Static launchers only have 4 ammo, hence the low price
-	["Static Titan AT 4Rnd (CSAT)", "O_static_AT_F", 2500],
-	["Static Titan AT 4Rnd (AAF)", "I_static_AT_F", 2500],
-	["Static Titan AA 4Rnd (NATO)", "B_static_AA_F", 3000],
-	["Static Titan AA 4Rnd (CSAT)", "O_static_AA_F", 3000],
-	["Static Titan AA 4Rnd (AAF)", "I_static_AA_F", 3000],
-	["Mk30 HMG .50 Low tripod (NATO)", "B_HMG_01_F", 2500],
-	["Mk30 HMG .50 Low tripod (CSAT)", "O_HMG_01_F", 2500],
-	["Mk30 HMG .50 Low tripod (AAF)", "I_HMG_01_F", 2500],
-	// ["Mk30A HMG .50 Sentry (NATO)", "B_HMG_01_A_F", 5000], // "A" = Autonomous = Overpowered
-	// ["Mk30A HMG .50 Sentry (CSAT)", "O_HMG_01_A_F", 5000],
-	// ["Mk30A HMG .50 Sentry (AAF)", "I_HMG_01_A_F", 5000],
-	["Mk30 HMG .50 High tripod (NATO)", "B_HMG_01_high_F", 3000],
-	["Mk30 HMG .50 High tripod (CSAT)", "O_HMG_01_high_F", 3000],
-	["Mk30 HMG .50 High tripod (AAF)", "I_HMG_01_high_F", 3000],
-	["Mk32 GMG 20mm Low tripod (NATO)", "B_GMG_01_F", 5500],
-	["Mk32 GMG 20mm Low tripod (CSAT)", "O_GMG_01_F", 5500],
-	["Mk32 GMG 20mm Low tripod (AAF)", "I_GMG_01_F", 5500],
-	// ["Mk32A GMG 20mm Sentry (NATO)", "B_GMG_01_A_F", 10000],
-	// ["Mk32A GMG 20mm Sentry (CSAT)", "O_GMG_01_A_F", 10000],
-	// ["Mk32A GMG 20mm Sentry (AAF)", "I_GMG_01_A_F", 10000],
-	["Mk32 GMG 20mm High tripod (NATO)", "B_GMG_01_high_F", 6000],
-	["Mk32 GMG 20mm High tripod (CSAT)", "O_GMG_01_high_F", 6000],
-	["Mk32 GMG 20mm High tripod (AAF)", "I_GMG_01_high_F", 6000],
-	["Mk6 Mortar (NATO)", "B_Mortar_01_F", 12500],
-	["Mk6 Mortar (CSAT)", "O_Mortar_01_F", 12500],
-	["Mk6 Mortar (AAF)", "I_Mortar_01_F", 12500]
+	// [localize "str_a3_cfgvehicles_box_nato_ammoveh_f0", "Box_NATO_AmmoVeh_F", 2500],
+	[localize "str_a3_b_static_at_placeholder_f0", "B_static_AT_F", 2500], // Static launchers only have 4 ammo, hence the low price
+	[localize "str_a3_b_static_at_placeholder_f0", "O_static_AT_F", 2500],
+	[localize "str_a3_b_static_at_placeholder_f0", "I_static_AT_F", 2500],
+	[localize "str_a3_b_static_aa_placeholder_f0", "B_static_AA_F", 3000],
+	[localize "str_a3_b_static_aa_placeholder_f0", "O_static_AA_F", 3000],
+	[localize "str_a3_b_static_aa_placeholder_f0", "I_static_AA_F", 3000],
+	[localize "str_a3_cfgvehicles_hmg_01_base0", "B_HMG_01_F", 2500],
+	[localize "str_a3_cfgvehicles_hmg_01_base0", "O_HMG_01_F", 2500],
+	[localize "str_a3_cfgvehicles_hmg_01_base0", "I_HMG_01_F", 2500],
+	// [localize "str_a3_cfgvehicles_hmg_01_a_base0", "B_HMG_01_A_F", 5000], // "A" = Autonomous = Overpowered
+	// [localize "str_a3_cfgvehicles_hmg_01_a_base0", "O_HMG_01_A_F", 5000],
+	// [localize "str_a3_cfgvehicles_hmg_01_a_base0", "I_HMG_01_A_F", 5000],
+	[localize "str_a3_cfgvehicles_hmg_01_a_high_base_f0", "B_HMG_01_high_F", 3000],
+	[localize "str_a3_cfgvehicles_hmg_01_a_high_base_f0", "O_HMG_01_high_F", 3000],
+	[localize "str_a3_cfgvehicles_hmg_01_a_high_base_f0", "I_HMG_01_high_F", 3000],
+	[localize "str_a3_cfgvehicles_gmg_01_base0", "B_GMG_01_F", 5500],
+	[localize "str_a3_cfgvehicles_gmg_01_base0", "O_GMG_01_F", 5500],
+	[localize "str_a3_cfgvehicles_gmg_01_base0", "I_GMG_01_F", 5500],
+	// [localize "str_a3_cfgvehicles_gmg_01_a_base0", "B_GMG_01_A_F", 10000],
+	// [localize "str_a3_cfgvehicles_gmg_01_a_base0", "O_GMG_01_A_F", 10000],
+	// [localize "str_a3_cfgvehicles_gmg_01_a_base0", "I_GMG_01_A_F", 10000],
+	[localize "str_a3_cfgvehicles_gmg_01_high_base_f0", "B_GMG_01_high_F", 6000],
+	[localize "str_a3_cfgvehicles_gmg_01_high_base_f0", "O_GMG_01_high_F", 6000],
+	[localize "str_a3_cfgvehicles_gmg_01_high_base_f0", "I_GMG_01_high_F", 6000],
+	[localize "str_a3_cfgvehicles_mortar_01_base0", "B_Mortar_01_F", 12500],
+	[localize "str_a3_cfgvehicles_mortar_01_base0", "O_Mortar_01_F", 12500],
+	[localize "str_a3_cfgvehicles_mortar_01_base0", "I_Mortar_01_F", 12500]
 ];
 
 throwputArray = compileFinal str
 [
-	["Mini Grenade", "MiniGrenade", 50],
-	["Frag Grenade", "HandGrenade", 100],
-	["APERS Tripwire Mine", "APERSTripMine_Wire_Mag", 200],
-	["APERS Bounding Mine", "APERSBoundingMine_Range_Mag", 250],
-	["APERS Mine", "APERSMine_Range_Mag", 300],
-	["Claymore Charge", "ClaymoreDirectionalMine_Remote_Mag", 350],
-	["M6 SLAM Mine", "SLAMDirectionalMine_Wire_Mag", 350],
-	["AT Mine", "ATMine_Range_Mag", 400],
-	["Explosive Charge", "DemoCharge_Remote_Mag", 450],
-	["Explosive Satchel", "SatchelCharge_Remote_Mag", 500],
-	["Smoke Grenade (White)", "SmokeShell", 50],
-	["Smoke Grenade (Purple)", "SmokeShellPurple", 50],
-	["Smoke Grenade (Blue)", "SmokeShellBlue", 50],
-	["Smoke Grenade (Green)", "SmokeShellGreen", 50],
-	["Smoke Grenade (Yellow)", "SmokeShellYellow", 50],
-	["Smoke Grenade (Orange)", "SmokeShellOrange", 50],
-	["Smoke Grenade (Red)", "SmokeShellRed", 50]
+	[localize "str_a3_cfgmagazines_minigrenade0", "MiniGrenade", 50],
+	[localize "str_a3_cfgmagazines_handgrenade0", "HandGrenade", 100],
+	[localize "str_a3_cfgmagazines_classicminewiremagazine0", "APERSTripMine_Wire_Mag", 200],
+	[localize "str_a3_cfgmagazines_bouncingminerangemagazine0", "APERSBoundingMine_Range_Mag", 250],
+	[localize "str_a3_cfgmagazines_classicminerangemagazine0", "APERSMine_Range_Mag", 300],
+	[localize "str_a3_cfgmagazines_directionalmineremotemagazine0", "ClaymoreDirectionalMine_Remote_Mag", 350],
+	[localize "str_a3_cfgmagazines_directionalminerangemagazine0", "SLAMDirectionalMine_Wire_Mag", 350],
+	[localize "str_a3_cfgmagazines_mine0", "ATMine_Range_Mag", 400],
+	[localize "str_a3_cfgmagazines_democharge0", "DemoCharge_Remote_Mag", 450],
+	[localize "str_a3_cfgmagazines_pipebomb0", "SatchelCharge_Remote_Mag", 500],
+	[localize "str_a3_cfgmagazines_smokeshell0", "SmokeShell", 50],
+	[localize "str_a3_cfgmagazines_smokeshellpurple0", "SmokeShellPurple", 50],
+	[localize "str_a3_cfgmagazines_smokeshellblue0", "SmokeShellBlue", 50],
+	[localize "str_a3_cfgmagazines_smokeshellgreen0", "SmokeShellGreen", 50],
+	[localize "str_a3_cfgmagazines_smokeshellyellow0", "SmokeShellYellow", 50],
+	[localize "str_a3_cfgmagazines_smokeshellorange0", "SmokeShellOrange", 50],
+	[localize "str_a3_cfgmagazines_smokeshellred0", "SmokeShellRed", 50]
 ];
 
 //Gun Store Ammo List
 //Text name, classname, buy cost
 ammoArray = compileFinal str
 [
-	["9mm 16Rnd Mag", "16Rnd_9x21_Mag", 10],
-	["9mm 30Rnd Mag", "30Rnd_9x21_Mag", 15],
-	[".45 ACP 6Rnd Cylinder", "6Rnd_45ACP_Cylinder", 5],
-	[".45 ACP 9Rnd Mag", "9Rnd_45ACP_Mag", 10],
-	[".45 ACP 11Rnd Mag", "11Rnd_45ACP_Mag", 15],
-	[".45 ACP 30Rnd Vermin Mag", "30Rnd_45ACP_MAG_SMG_01", 20],
-	[".45 ACP 30Rnd Tracer (Green) Mag", "30Rnd_45ACP_Mag_SMG_01_tracer_green", 15],
-	["5.56mm 20Rnd Underwater Mag", "20Rnd_556x45_UW_mag", 10],
-	["5.56mm 30Rnd STANAG Mag", "30Rnd_556x45_Stanag", 20],
-	["5.56mm 30Rnd Tracer (Green) Mag", "30Rnd_556x45_Stanag_Tracer_Green", 15],
-	["5.56mm 30Rnd Tracer (Yellow) Mag", "30Rnd_556x45_Stanag_Tracer_Yellow", 15],
-	["5.56mm 30Rnd Tracer (Red) Mag", "30Rnd_556x45_Stanag_Tracer_Red", 15],
-	["6.5mm 30Rnd STANAG Mag", "30Rnd_65x39_caseless_mag", 20],
-	["6.5mm 30Rnd Tracer (Red) Mag", "30Rnd_65x39_caseless_mag_Tracer", 15],
-	["6.5mm 30Rnd Caseless Mag", "30Rnd_65x39_caseless_green", 20],
-	["6.5mm 30Rnd Tracer (Green) Mag", "30Rnd_65x39_caseless_green_mag_Tracer", 15],
-	["6.5mm 100Rnd Belt Case", "100Rnd_65x39_caseless_mag", 75],
-	["6.5mm 100Rnd Tracer (Red) Belt Case", "100Rnd_65x39_caseless_mag_Tracer", 50],
-	["6.5mm 200Rnd Belt Case", "200Rnd_65x39_cased_Box", 150],
-	["6.5mm 200Rnd Tracer (Yellow) Belt Case", "200Rnd_65x39_cased_Box_Tracer", 125],
-	//["7.62mm 10Rnd Mag", "10Rnd_762x51_Mag", 15],
-	["7.62mm 10Rnd Mag", "10Rnd_762x54_Mag", 15],
-	["7.62mm 20Rnd Mag", "20Rnd_762x51_Mag", 25],
-	//["7.62mm 150Rnd Box", "150Rnd_762x51_Box", 150],
-	//["7.62mm 150Rnd Tracer (Green) Box", "150Rnd_762x51_Box_Tracer", 125],
-	["7.62mm 150Rnd Box", "150Rnd_762x54_Box", 150],
-	["7.62mm 150Rnd Tracer (Green) Box", "150Rnd_762x54_Box_Tracer", 125],
+	[localize "str_a3_cfgmagazines_16rnd_9x21_mag0", "16Rnd_9x21_Mag", 10],
+	[localize "str_a3_cfgmagazines_30rnd_9x21_mag0", "30Rnd_9x21_Mag", 15],
+	[localize "str_a3_cfgmagazines_6rnd_45acp_cylinder0", "6Rnd_45ACP_Cylinder", 5],
+	[localize "str_a3_weapons_f_beta_cfgmagazines_9rnd_45acp_mag0", "9Rnd_45ACP_Mag", 10],
+	[localize "str_a3_cfgmagazines_11rnd_45acp_mag0", "11Rnd_45ACP_Mag", 15],
+	[localize "str_a3_cfgmagazines_30rnd_9x21_mag_smg_010", "30Rnd_45ACP_MAG_SMG_01", 20],
+	[localize "str_a3_cfgmagazines_30rnd_9x21_mag_smg_01_tracer_green0", "30Rnd_45ACP_Mag_SMG_01_tracer_green", 15],
+	[localize "STR_A3_CfgMagazines_20Rnd_556x45_UW_mag0", "20Rnd_556x45_UW_mag", 10],
+	[localize "str_a3_cfgmagazines_30rnd_556x45_stanag0", "30Rnd_556x45_Stanag", 20],
+	[localize "str_a3_cfgmagazines_30rnd_556x45_stanag_tracer_green0", "30Rnd_556x45_Stanag_Tracer_Green", 15],
+	[localize "str_a3_cfgmagazines_30rnd_556x45_stanag_tracer_yellow0", "30Rnd_556x45_Stanag_Tracer_Yellow", 15],
+	[localize "str_a3_cfgmagazines_30rnd_556x45_stanag_tracer_red0", "30Rnd_556x45_Stanag_Tracer_Red", 15],
+	[localize "str_a3_cfgmagazines_30rnd_65x39_mag0", "30Rnd_65x39_caseless_mag", 20],
+	[localize "str_a3_cfgmagazines_30rnd_65x39_mag_tracer_red0", "30Rnd_65x39_caseless_mag_Tracer", 15],
+	[localize "str_a3_cfgmagazines_30rnd_65x39_caseless_green1", "30Rnd_65x39_caseless_green", 20],
+	[localize "str_a3_cfgmagazines_30rnd_65x39_caseless_green_mag_tracer0", "30Rnd_65x39_caseless_green_mag_Tracer", 15],
+	[localize "str_a3_cfgmagazines_100rnd_65x39_belt0", "100Rnd_65x39_caseless_mag", 75],
+	[localize "str_a3_cfgmagazines_100rnd_65x39_belt_tracer_red0", "100Rnd_65x39_caseless_mag_Tracer", 50],
+	[localize "str_a3_cfgmagazines_200rnd_65x39_belt0", "200Rnd_65x39_cased_Box", 150],
+	[localize "str_a3_cfgmagazines_200rnd_65x39_belt_tracer_yellow0", "200Rnd_65x39_cased_Box_Tracer", 125],
+	//[localize "str_a3_cfgmagazines_10rnd_762x51_mag0", "10Rnd_762x51_Mag", 15],
+	[localize "str_a3_cfgmagazines_10rnd_762x51_mag0", "10Rnd_762x54_Mag", 15],
+	[localize "str_a3_cfgmagazines_20rnd_762x45_mag0", "20Rnd_762x51_Mag", 25],
+	//[localize "str_a3_cfgmagazines_150rnd_762x51_box0", "150Rnd_762x51_Box", 150],
+	//[localize "str_a3_cfgmagazines_150rnd_762x51_box_tracer0", "150Rnd_762x51_Box_Tracer", 125],
+	[localize "str_a3_cfgmagazines_150rnd_762x51_box0", "150Rnd_762x54_Box", 150],
+	[localize "str_a3_cfgmagazines_150rnd_762x51_box_tracer0", "150Rnd_762x54_Box_Tracer", 125],
 	[".338 LM 10Rnd Mag", "10Rnd_338_Mag", 50],
 	[".338 NM 130Rnd Belt", "130Rnd_338_Mag", 150],
 	["9.3mm 10Rnd Mag", "10Rnd_93x64_DMR_05_Mag", 50],
 	["9.3mm 150Rnd Belt", "150Rnd_93x64_Mag", 150],
-	[".408 7Rnd Cheetah Mag", "7Rnd_408_Mag", 50],
-	["12.7mm 5Rnd Mag", "5Rnd_127x108_Mag", 50],
-	["12.7mm 5Rnd Armor-Piercing Mag", "5Rnd_127x108_APDS_Mag", 60],
+	[localize "str_a3_cfgmagazines_7rnd_408_mag0", "7Rnd_408_Mag", 50],
+	[localize "str_a3_cfgmagazines_5rnd_127x108_mag0", "5Rnd_127x108_Mag", 50],
+	[localize "str_a3_cfgmagazines_5rnd_127x108_apds_mag0", "5Rnd_127x108_APDS_Mag", 60],
 	["12.7mm 10Rnd Subsonic Mag", "10Rnd_127x54_Mag", 75],
-	["RPG-42 Anti-Tank Rocket", "RPG32_F", 250],              // Direct damage: high      | Splash damage: low    | Guidance: none
-	["RPG-42 High-Explosive Rocket", "RPG32_HE_F", 250],      // Direct damage: medium    | Splash damage: medium | Guidance: none
-	["PCML Anti-Tank Missile", "NLAW_F", 400],                // Direct damage: very high | Splash damage: low    | Guidance: laser, ground vehicles
-	["Titan Anti-Tank Missile", "Titan_AT", 350],             // Direct damage: high      | Splash damage: low    | Guidance: mouse, laser, ground vehicles
-	["Titan Anti-Personnel Missile", "Titan_AP", 350],        // Direct damage: low       | Splash damage: high   | Guidance: mouse, laser
-	["Titan Anti-Air Missile", "Titan_AA", 350],              // Direct damage: low       | Splash damage: medium | Guidance: aircraft
-	["40mm HE Grenade Round", "1Rnd_HE_Grenade_shell", 125],
-	["40mm 3Rnd HE Grenades", "3Rnd_HE_Grenade_shell", 250],
-	["40mm Smoke Round (White)", "1Rnd_Smoke_Grenade_shell", 50],
-	["40mm Smoke Round (Purple)", "1Rnd_SmokePurple_Grenade_shell", 50],
-	["40mm Smoke Round (Blue)", "1Rnd_SmokeBlue_Grenade_shell", 50],
-	["40mm Smoke Round (Green)", "1Rnd_SmokeGreen_Grenade_shell", 50],
-	["40mm Smoke Round (Yellow)", "1Rnd_SmokeYellow_Grenade_shell", 50],
-	["40mm Smoke Round (Orange)", "1Rnd_SmokeOrange_Grenade_shell", 50],
-	["40mm Smoke Round (Red)", "1Rnd_SmokeRed_Grenade_shell", 50],
-	["40mm 3Rnd Smokes (White)", "3Rnd_Smoke_Grenade_shell", 100],
-	["40mm 3Rnd Smokes (Purple)", "3Rnd_SmokePurple_Grenade_shell", 100],
-	["40mm 3Rnd Smokes (Blue)", "3Rnd_SmokeBlue_Grenade_shell", 100],
-	["40mm 3Rnd Smokes (Green)", "3Rnd_SmokeGreen_Grenade_shell", 100],
-	["40mm 3Rnd Smokes (Yellow)", "3Rnd_SmokeYellow_Grenade_shell", 100],
-	["40mm 3Rnd Smokes (Orange)", "3Rnd_SmokeOrange_Grenade_shell", 100],
-	["40mm 3Rnd Smokes (Red)", "3Rnd_SmokeRed_Grenade_shell", 100],
-	["40mm Flare Round (White)", "UGL_FlareWhite_F", 25],
-	["40mm Flare Round (Green)", "UGL_FlareGreen_F", 25],
-	["40mm Flare Round (Yellow)", "UGL_FlareYellow_F", 25],
-	["40mm Flare Round (Red)", "UGL_FlareRed_F", 25],
-	["40mm Flare Round (IR)", "UGL_FlareCIR_F", 25],
-	["40mm 3Rnd Flares (White)", "3Rnd_UGL_FlareWhite_F", 50],
-	["40mm 3Rnd Flares (Green)", "3Rnd_UGL_FlareGreen_F", 50],
-	["40mm 3Rnd Flares (Yellow)", "3Rnd_UGL_FlareYellow_F", 50],
-	["40mm 3Rnd Flares (Red)", "3Rnd_UGL_FlareRed_F", 50],
-	["40mm 3Rnd Flares (IR)", "3Rnd_UGL_FlareCIR_F", 50]
+	[localize "str_a3_cfgmagazines_law0", "RPG32_F", 250],                // Direct damage: high      | Splash damage: low    | Guidance: none
+	[localize "str_a3_cfgmagazines_rpg32_aa_f0", "RPG32_HE_F", 250],      // Direct damage: medium    | Splash damage: medium | Guidance: none
+	[localize "str_a3_cfgmagazines_nlaw0", "NLAW_F", 400],                // Direct damage: very high | Splash damage: low    | Guidance: laser, ground vehicles
+	[localize "str_a3_cfgmagazines_titan_at0", "Titan_AT", 350],          // Direct damage: high      | Splash damage: low    | Guidance: mouse, laser, ground vehicles
+	[localize "str_a3_cfgmagazines_titan_ap0", "Titan_AP", 350],          // Direct damage: low       | Splash damage: high   | Guidance: mouse, laser
+	[localize "str_a3_cfgmagazines_titan_aa0", "Titan_AA", 350],          // Direct damage: low       | Splash damage: medium | Guidance: aircraft
+	[localize "str_a3_cfgmagazines_1rnd_he_grenade_shell0", "1Rnd_HE_Grenade_shell", 125],
+	[localize "str_a3_cfgmagazines_3rnd_he_grenade_shell0", "3Rnd_HE_Grenade_shell", 250],
+	[localize "str_a3_cfgmagazines_1rnd_smoke_grenade_shell0", "1Rnd_Smoke_Grenade_shell", 50],
+	[localize "str_a3_cfgmagazines_1rnd_smokepurple_grenade_shell0", "1Rnd_SmokePurple_Grenade_shell", 50],
+	[localize "str_a3_cfgmagazines_1rnd_smokeblue_grenade_shell0", "1Rnd_SmokeBlue_Grenade_shell", 50],
+	[localize "str_a3_cfgmagazines_1rnd_smokegreen_grenade_shell0", "1Rnd_SmokeGreen_Grenade_shell", 50],
+	[localize "str_a3_cfgmagazines_1rnd_smokeyellow_grenade_shell0", "1Rnd_SmokeYellow_Grenade_shell", 50],
+	[localize "str_a3_cfgmagazines_1rnd_smokeorange_grenade_shell0", "1Rnd_SmokeOrange_Grenade_shell", 50],
+	[localize "str_a3_cfgmagazines_1rnd_smokered_grenade_shell0", "1Rnd_SmokeRed_Grenade_shell", 50],
+	[localize "str_a3_cfgmagazines_3rnd_smoke_grenade_shell0", "3Rnd_Smoke_Grenade_shell", 100],
+	[localize "str_a3_cfgmagazines_3rnd_smokepurple_grenade_shell0", "3Rnd_SmokePurple_Grenade_shell", 100],
+	[localize "str_a3_cfgmagazines_3rnd_smokeblue_grenade_shell0", "3Rnd_SmokeBlue_Grenade_shell", 100],
+	[localize "str_a3_cfgmagazines_3rnd_smokegreen_grenade_shell0", "3Rnd_SmokeGreen_Grenade_shell", 100],
+	[localize "str_a3_cfgmagazines_3rnd_smokeyellow_grenade_shell0", "3Rnd_SmokeYellow_Grenade_shell", 100],
+	[localize "str_a3_cfgmagazines_3rnd_smokeorange_grenade_shell0", "3Rnd_SmokeOrange_Grenade_shell", 100],
+	[localize "str_a3_cfgmagazines_3rnd_smokered_grenade_shell0", "3Rnd_SmokeRed_Grenade_shell", 100],
+	[localize "str_a3_cfgmagazines_ugl_flarewhite_f_test1", "UGL_FlareWhite_F", 25],
+	[localize "STR_A3_CfgMagazines_UGL_FlareGreen_F0", "UGL_FlareGreen_F", 25],
+	[localize "STR_A3_CfgMagazines_UGL_FlareYellow_F0", "UGL_FlareYellow_F", 25],
+	[localize "STR_A3_CfgMagazines_UGL_FlareRed_F0", "UGL_FlareRed_F", 25],
+	[localize "str_a3_cfgmagazines_ugl_flarecir_f0", "UGL_FlareCIR_F", 25],
+	[localize "STR_A3_cfgmagazines_3rnd_ugl_flarewhite_f_test", "3Rnd_UGL_FlareWhite_F", 50],
+	[localize "STR_a3_cfgmagazines_3rnd_ugl_flaregreen_f0", "3Rnd_UGL_FlareGreen_F", 50],
+	[localize "STR_a3_cfgmagazines_3rnd_ugl_flareyellow_f0", "3Rnd_UGL_FlareYellow_F", 50],
+	[localize "STR_a3_cfgmagazines_3rnd_ugl_flarered_f0", "3Rnd_UGL_FlareRed_F", 50],
+	[localize "STR_a3_cfgmagazines_3rnd_ugl_flarecir_f0", "3Rnd_UGL_FlareCIR_F", 50]
 ];
 
 //Gun Store item List
 //Text name, classname, buy cost, item class
 accessoriesArray = compileFinal str
 [
-	["Suppressor 9mm", "muzzle_snds_L", 50, "item"],
-	["Suppressor .45 ACP", "muzzle_snds_acp", 75, "item"],
-	["Suppressor 5.56mm", "muzzle_snds_M", 100, "item"],
-	["Suppressor 6.5mm", "muzzle_snds_H", 100, "item"],
-	["Suppressor 6.5mm LMG", "muzzle_snds_H_MG", 125, "item"],
-	["Suppressor 7.62mm", "muzzle_snds_B", 125, "item"],
+	[localize "str_a3_cfgweapons_muzzle_snds_l0", "muzzle_snds_L", 50, "item"],
+	[localize "str_a3_cfgweapons_muzzle_snds_acp0", "muzzle_snds_acp", 75, "item"],
+	[localize "str_a3_cfgweapons_muzzle_snds_m0", "muzzle_snds_M", 100, "item"],
+	[localize "str_a3_cfgweapons_muzzle_snds_h0", "muzzle_snds_H", 100, "item"],
+	[localize "str_a3_cfgweapons_muzzle_snds_h_mg0", "muzzle_snds_H_MG", 125, "item"],
+	[localize "str_a3_cfgweapons_muzzle_snds_b0", "muzzle_snds_B", 125, "item"],
 	["Suppressor .338 [DLC]", "muzzle_snds_338_black", 125, "item"],
 	["Suppressor .338 (Green) [DLC]", "muzzle_snds_338_green", 125, "item"],
 	["Suppressor .338 (Sand) [DLC]", "muzzle_snds_338_sand", 125, "item"],
 	["Suppressor 9.3mm [DLC]", "muzzle_snds_93mmg", 125, "item"],
 	["Suppressor 9.3mm (Tan) [DLC]", "muzzle_snds_93mmg_tan", 125, "item"],
-	["Bipod (NATO)", "bipod_01_F_blk", 250, "item"],
-	["Bipod (CSAT)", "bipod_02_F_blk", 250, "item"],
-	["Bipod (AAF)", "bipod_03_F_blk", 250, "item"],
-	["Bipod (MTP)", "bipod_01_F_mtp", 250, "item"],
-	["Bipod (Hex)", "bipod_02_F_hex", 250, "item"],
-	["Bipod (Olive)", "bipod_03_F_oli", 250, "item"],
-	["Bipod (Sand)", "bipod_01_F_snd", 250, "item"],
-	["Bipod (Tan)", "bipod_02_F_tan", 250, "item"],
-	["Flashlight", "acc_flashlight", 25, "item"],
-	["IR Laser Pointer", "acc_pointer_IR", 25, "item"],
-	["Yorris Sight (Zubr Revolver)", "optic_Yorris", 50, "item"],
-	["MRD Sight (4-Five Pistol)", "optic_MRD", 50, "item"],
-	["ACO (CQB)", "optic_aco_smg", 50, "item"],
-	["Holosight (CQB)", "optic_Holosight_smg", 50, "item"],
-	["ACO (Red)", "optic_Aco", 75, "item"],
-	["ACO (Green)", "optic_Aco_grn", 75, "item"],
-	["Holosight", "optic_Holosight", 75, "item"],
-	["MRCO", "optic_MRCO", 100, "item"],
-	["ARCO", "optic_Arco", 125, "item"],
-	["RCO", "optic_Hamr", 150, "item"],
-	["MOS", "optic_SOS", 200, "item"],
-	["DMS", "optic_DMS", 175, "item"],
+	[localize "str_a3_rscdisplayarsenal_tab_itembipod" + " (" + localize "str_a3_cfgfactionclasses_blu_f0" + ")", "bipod_01_F_blk", 250, "item"],
+	[localize "str_a3_rscdisplayarsenal_tab_itembipod" + " (" + localize "str_a3_cfgfactionclasses_opf_f0" + ")", "bipod_02_F_blk", 250, "item"],
+	[localize "str_a3_rscdisplayarsenal_tab_itembipod" + " (" + localize "str_a3_cfgfactionclasses_ind_f0" + ")", "bipod_03_F_blk", 250, "item"],
+	[localize "str_a3_rscdisplayarsenal_tab_itembipod" + " (" + localize "STR_WL_Skin_MTP" + ")", "bipod_01_F_mtp", 250, "item"],
+	[localize "str_a3_rscdisplayarsenal_tab_itembipod" + " (" + localize "STR_WL_Skin_Hex" + ")", "bipod_02_F_hex", 250, "item"],
+	[localize "str_a3_rscdisplayarsenal_tab_itembipod" + " (" + localize "STR_WL_Skin_Oli" + ")", "bipod_03_F_oli", 250, "item"],
+	[localize "str_a3_rscdisplayarsenal_tab_itembipod" + " (" + localize "STR_WL_Skin_Snd" + ")", "bipod_01_F_snd", 250, "item"],
+	[localize "str_a3_rscdisplayarsenal_tab_itembipod" + " (" + localize "STR_WL_Skin_Tan" + ")", "bipod_02_F_tan", 250, "item"],
+	[localize "str_a3_cfgweapons_acc_flashlight0", "acc_flashlight", 25, "item"],
+	[localize "str_a3_cfgweapons_acc_pointer_ir0", "acc_pointer_IR", 25, "item"],
+	[localize "str_a3_cfgweapons_optic_yorris0", "optic_Yorris", 50, "item"],
+	[localize "str_a3_cfgweapons_optic_mrd0", "optic_MRD", 50, "item"],
+	[localize "str_a3_cfgweapons_optic_aco_smg0", "optic_aco_smg", 50, "item"],
+	[localize "str_a3_cfgweapons_optic_holosight_smg0", "optic_Holosight_smg", 50, "item"],
+	[localize "str_a3_cfgweapons_optic_aco0", "optic_Aco", 75, "item"],
+	[localize "str_a3_cfgweapons_optic_aco_grn0", "optic_Aco_grn", 75, "item"],
+	[localize "str_a3_cfgweapons_optic_holosight0", "optic_Holosight", 75, "item"],
+	[localize "str_a3_cfgweapons_optic_valdada0", "optic_MRCO", 100, "item"],
+	[localize "str_a3_cfgweapons_optic_arco0", "optic_Arco", 125, "item"],
+	[localize "str_a3_cfgweapons_optic_hamr0", "optic_Hamr", 150, "item"],
+	[localize "str_a3_cfgweapons_optic_sos0", "optic_SOS", 200, "item"],
+	[localize "str_a3_cfgweapons_acc_dms0", "optic_DMS", 175, "item"],
 	["AMS [DLC]", "optic_AMS", 200, "item"],
 	["AMS (Khaki) [DLC]", "optic_AMS_khk", 200, "item"],
 	["AMS (Sand) [DLC]", "optic_AMS_snd", 200, "item"],
@@ -286,11 +286,11 @@ accessoriesArray = compileFinal str
 	["Kahlia (Hex) [DLC]", "optic_KHS_hex", 200, "item"],
 	["Kahlia (Tan) [DLC]", "optic_KHS_tan", 200, "item"],
 	["Kahlia (Old) [DLC]", "optic_KHS_old", 200, "item"],
-	["LRPS", "optic_LRPS", 175, "item"],
-	["NVS", "optic_NVS", 500, "item"],
-	["TWS", "optic_tws", 7500, "item"],
-	["TWS MG", "optic_tws_mg", 9000, "item"],
-	["Nightstalker", "optic_Nightstalker", 12500, "item"]
+	[localize "str_a3_cfgweapons_optic_lrps0", "optic_LRPS", 175, "item"],
+	[localize "str_a3_cfgweapons_optic_nvs0", "optic_NVS", 500, "item"],
+	[localize "str_a3_cfgweapons_optic_tws0", "optic_tws", 7500, "item"],
+	[localize "str_a3_cfgweapons_optic_tws_mg0", "optic_tws_mg", 9000, "item"],
+	[localize "str_a3_cfgweapons_optic_nightstalker0", "optic_Nightstalker", 12500, "item"]
 ];
 
 // If commented, means the color/camo isn't implemented or is a duplicate of another hat
