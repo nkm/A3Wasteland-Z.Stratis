@@ -18,6 +18,12 @@
 			<Spanish>Wasteland es un implacable sandbox en el cual dos equipos y jugadores independientes luchan por la supervivencia.</Spanish>
 		</Key>
 	</Package>
+	<Package name="Meta">
+		<Key ID="STR_WL_Meta_ClientInit">
+			<English>Welcome to Territorio Z, please wait for your client to initialize</English>
+			<Spanish>Bienvenido a Territorio Z, por favor espera mientras tu cliente se inicializa</Spanish>
+		</Key>
+	</Package>
 	<Package name="General">
 		<Key ID="STR_WL_Gen_TeamWEST">
 			<English>BLUFOR</English>
