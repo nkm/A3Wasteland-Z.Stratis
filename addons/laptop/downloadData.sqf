@@ -8,7 +8,7 @@
 
 T8_varFileSize   = 55024; // Filesize. Smaller files will take shorter time to download! Default: 165072
 
-T8_varMinMoney   = 25000;
+T8_varMinMoney   = 31337; // 7h3 h4x0r 31337 0wNz
 
 T8_varTLine01    = "Download cancelled!";                                                 // download aborted
 T8_varTLine02    = "Download already in progress by someone else!";                       // download already in progress by someone else

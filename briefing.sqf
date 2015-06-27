@@ -21,6 +21,7 @@ player createDiaryRecord ["changelog-z",
 <br/>[Añadido] Algunas traducciones
 <br/>[Cambiado] Ajustes climatológicos varios
 <br/>[Cambiado] Posibilidad de controlar el volumen de la música
+<br/>[Cambiado] Ajustes en la misión de Hackers
 "
 ]];
 
