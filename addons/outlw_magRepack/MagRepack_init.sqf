@@ -43,9 +43,9 @@ outlw_MR_ctrl = outlw_MR_keyList select 1;
 outlw_MR_alt = outlw_MR_keyList select 2;
 outlw_MR_keybinding = outlw_MR_keyList select 3;
 
-[] execVM "addons\outlw_magRepack\Scripts\MagRepack_Main.sqf";
-[] execVM "addons\outlw_magRepack\Scripts\MagRepack_Keybindings.sqf";
-[] execVM "addons\outlw_magRepack\Scripts\MagRepack_Misc.sqf";
+[] execVM "addons\outlw_magrepack\Scripts\MagRepack_Main.sqf";
+[] execVM "addons\outlw_magrepack\Scripts\MagRepack_Keybindings.sqf";
+[] execVM "addons\outlw_magrepack\Scripts\MagRepack_Misc.sqf";
 
 waitUntil {!(isNil "outlw_MR_getIDCs")};
 

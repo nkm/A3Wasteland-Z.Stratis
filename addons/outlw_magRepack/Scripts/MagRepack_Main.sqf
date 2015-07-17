@@ -203,7 +203,7 @@ outlw_MR_populateMagListBox =
 		};
 
 		((uiNamespace getVariable "outlw_MR_Dialog_Main") displayCtrl 1500) lnbAddRow [([(getText(configFile >> "cfgMagazines" >> _magTypes select _n >> "DisplayName")), 25] call outlw_MR_shortString), "", "", _magCountStr];
-		((uiNamespace getVariable "outlw_MR_Dialog_Main") displayCtrl 1500) lnbSetPicture [[_n, 1], format ["addons\outlw_magRepack\Images\bulletCount\%1.paa", round((_magAmmoCounts select _n)/(_magAmmoCaps select _n)*30)]];
+		((uiNamespace getVariable "outlw_MR_Dialog_Main") displayCtrl 1500) lnbSetPicture [[_n, 1], format ["addons\outlw_magrepack\Images\bulletCount\%1.paa", round((_magAmmoCounts select _n)/(_magAmmoCaps select _n)*30)]];
 		((uiNamespace getVariable "outlw_MR_Dialog_Main") displayCtrl 1500) lnbSetPicture [[_n, 2], (getText(configFile >> "cfgMagazines" >> _magTypes select _n >> "picture"))];
 
 		((uiNamespace getVariable "outlw_MR_Dialog_Main") displayCtrl 1500) lbSetValue [_n*4, _magAmmoCounts select _n];

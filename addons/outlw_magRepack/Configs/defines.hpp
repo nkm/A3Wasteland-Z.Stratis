@@ -274,6 +274,7 @@ class outlw_MR_RscButtonMenu
 	period = 1.2;
 	periodFocus = 1.2;
 	periodOver = 1.2;
+	font = "PuristaMedium";
 	size = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
 	class TextPos
@@ -320,14 +321,6 @@ class outlw_MR_RscButtonMenu
 		"\A3\ui_f\data\sound\RscButtonMenu\soundEscape",
 		0.09,
 		1
-	};
-	font = "PuristaMedium";
-
-	class AttributesImage
-	{
-		font = "PuristaMedium";
-		color = "#E5E5E5";
-		align = "left";
 	};
 };
 class outlw_MR_RscControlsGroup

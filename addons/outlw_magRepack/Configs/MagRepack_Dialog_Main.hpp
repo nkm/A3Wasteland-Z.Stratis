@@ -64,7 +64,7 @@ class MagRepack_Dialog_Main
 		{
 			idc = 1200;
 
-			text = "addons\outlw_magRepack\Images\MR_logo.paa";
+			text = "addons\outlw_magrepack\Images\MR_logo.paa";
 			x = 4.5 * GUI_GRID_W + GUI_GRID_X;
 			y = 17 * GUI_GRID_H + GUI_GRID_Y;
 			w = 5.5 * GUI_GRID_W;
@@ -111,7 +111,7 @@ class MagRepack_Dialog_Main
 		class MR_FG_Source: outlw_MR_RscPicture
 		{
 			idc = 2210;
-			text = "addons\outlw_magRepack\Images\MR_SourceGradient.paa";
+			text = "addons\outlw_magrepack\Images\MR_SourceGradient.paa";
 
 			x = 19.5 * GUI_GRID_W + GUI_GRID_X;
 			y = 4 * GUI_GRID_H + GUI_GRID_Y;
@@ -131,7 +131,7 @@ class MagRepack_Dialog_Main
 		class MR_FG_Target: outlw_MR_RscPicture
 		{
 			idc = 2211;
-			text = "addons\outlw_magRepack\Images\MR_TargetGradient.paa";
+			text = "addons\outlw_magrepack\Images\MR_TargetGradient.paa";
 
 			x = 19.5 * GUI_GRID_W + GUI_GRID_X;
 			y = 8.5 * GUI_GRID_H + GUI_GRID_Y;
