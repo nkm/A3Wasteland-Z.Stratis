@@ -23,6 +23,7 @@ player createDiaryRecord ["changelog-z",
 "v0.7",
 "
 <br/>[Cambiado] Actualizado a A3Wasteland v1.2
+<br/>[Cambiado] Ajustes de precios en tiendas
 "
 ]];
 
